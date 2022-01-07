@@ -26,7 +26,7 @@ export const SingleProduct = () => {
                 return <div key={index}>
                     <h1 className={styles.title}>{productItem.title}</h1>
                     <div className={styles.description}>
-                        <img src={productItem.image} className={styles.img} />
+                        <img src={productItem.image} alt={productItem.description} className={styles.img} />
                         <div className={styles.description1}>
                             <h2>{productItem.description}</h2>
                             <Rating

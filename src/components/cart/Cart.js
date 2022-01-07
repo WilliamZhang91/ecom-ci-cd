@@ -51,7 +51,7 @@ export const Cart = () => {
                                 }));
                             }
                             return <div key={cart.id} className={styles.cart}>
-                                <img src={cart.image} className={styles.img} />
+                                <img src={cart.image} alt={cart.id} className={styles.img} />
                                 <div className={styles.description}>
                                     <h2 className={styles.title}>{cart.title}</h2>
                                     <p>Quantity: {cart.quantity}</p>

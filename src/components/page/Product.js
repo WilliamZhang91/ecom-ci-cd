@@ -21,7 +21,7 @@ export const Product = (props) => {
     return <>
         <div className={styles.products}>
             <Link to={`/${id}`}>
-                <img src={image} />
+                <img src={image} alt={title} />
             </Link>
             <p>${price}</p>
             <div className={styles.add}>

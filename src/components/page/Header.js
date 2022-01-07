@@ -1,4 +1,3 @@
-import React, { Fragment } from "react";
 import styles from "./Header.module.css";
 import { useEffect } from "react";
 import { MdShoppingCart } from "react-icons/md";
@@ -22,7 +21,7 @@ export const Header = () => {
         } else {
             document.body.style.overflow = "scroll";
         }
-    }, [toggleCart])
+    }, [showCart, toggleCart])
 
     return (
         <>
