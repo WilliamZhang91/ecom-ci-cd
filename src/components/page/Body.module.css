@@ -1,0 +1,26 @@
+.body {
+    width: 100%;
+    margin: 70px 0;
+    color: rgba(29, 144, 238, 0.801);
+}
+
+.inner_body {
+    width: 59%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    text-decoration: none;
+    margin: auto;
+    color: rgba(29, 144, 238, 0.801);
+}

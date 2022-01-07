@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Galindo&display=swap');
+
+.products {
+    margin: 20px auto 20px auto;
+}
+
+img {
+    height: 350px;
+    width: 300px;
+    border: 3px solid rgba(29, 144, 238, 0.801);
+    border-radius: 20px;
+}
+
+.add {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    background-color: rgba(29, 144, 238, 0.801);
+    border-radius: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: white;
+    font-family:'Galindo', cursive;
+}
+

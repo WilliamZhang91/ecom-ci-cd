@@ -1,0 +1,22 @@
+.layout {
+    width: 59%;
+    margin: 100px auto;
+    color: rgba(29, 144, 238, 0.801);
+}
+
+.title {
+    text-decoration: underline;
+}
+
+.img {
+    width: 500px;
+    height: auto;
+}
+
+.description {
+    display: flex;
+}
+
+.description1 {
+    margin: auto 50px;
+}
