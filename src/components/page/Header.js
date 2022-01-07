@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import { useEffect } from "react";
+import { useEffect, useCallback } from "react";
 import { MdShoppingCart } from "react-icons/md";
 import { interfaceActions } from "../../store/interface";
 import { useSelector, useDispatch } from "react-redux";
@@ -11,9 +11,13 @@ export const Header = () => {
     const showCart = useSelector(state => state.interface.showCart);
     const dispatch = useDispatch();
 
-    const toggleCart = () => {
+    //const toggleCart = () => {
+    //    dispatch(interfaceActions.toggleCart())
+    //};
+
+    const toggleCart = useCallback(() => {
         dispatch(interfaceActions.toggleCart())
-    };
+    }, [])
 
     useEffect(() => {
         if (showCart) {
