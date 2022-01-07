@@ -17,7 +17,7 @@ export const Header = () => {
 
     const toggleCart = useCallback(() => {
         dispatch(interfaceActions.toggleCart())
-    }, [])
+    }, [dispatch])
 
     useEffect(() => {
         if (showCart) {
