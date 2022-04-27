@@ -20,3 +20,60 @@
 .description1 {
     margin: auto 50px;
 }
+
+@media (max-width: 1000px) {
+    .img {
+        width: 400px;
+        height: 550px;
+    }
+}
+
+@media (max-width: 800px) {
+    .img {
+        width: 400px;
+        height: 500px;
+    }
+    h2 {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 770px) {
+    .img {
+        width: 400px;
+        height: 400px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 680px) {
+    .title {
+        font-size: 30px
+    }
+    .img {
+        width: 300px;
+        height: 300px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 540px) {
+    .description {
+        flex-direction: column;
+    }
+    .title {
+        font-size: 30px
+    }
+    .img {
+        width: 250px;
+        height: 250px;
+    }
+    h2 {
+        font-size: 15px;
+        width: 150px;
+    }
+}

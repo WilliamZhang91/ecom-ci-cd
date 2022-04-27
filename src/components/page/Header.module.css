@@ -1,8 +1,8 @@
 .header {
-    width: 100%; 
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color:rgba(29, 144, 238, 0.801);
+    background-color: rgba(29, 144, 238, 0.801);
     color: white;
     font-weight: 600;
     height: 12vh;
@@ -30,5 +30,25 @@
     width: 50px;
     border-radius: 40px;
     text-align: center;
-    background-color:rgb(146, 198, 240);
+    background-color: rgb(146, 198, 240);
+}
+
+@media (max-width: 412px) {
+    .header_left {
+        font-size: 30px;
+    }
+
+    .header_right {
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .cart {
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .quantity {
+        width: 30px;
+    }
 }

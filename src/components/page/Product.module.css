@@ -23,6 +23,15 @@ button {
     padding: 10px 10px;
     cursor: pointer;
     color: white;
-    font-family:'Galindo', cursive;
+    font-family: 'Galindo', cursive;
 }
 
+@media (max-width: 414px) {
+    .add {
+        font-size: 5px;
+        flex-direction: column;
+    }
+    button {
+        margin-top: 10px;
+    }
+}
